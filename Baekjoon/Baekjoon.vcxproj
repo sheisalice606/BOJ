@@ -131,9 +131,6 @@
     <ClCompile Include="2636_치즈.cpp" />
     <ClCompile Include="7576_토마토.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="resource.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

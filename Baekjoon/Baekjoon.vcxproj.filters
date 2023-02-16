@@ -28,9 +28,4 @@
       <Filter>소스 파일\2636번 치즈</Filter>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="resource.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-  </ItemGroup>
 </Project>
