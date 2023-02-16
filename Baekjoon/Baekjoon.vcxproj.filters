@@ -13,13 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\7576번 토마토">
+    <Filter Include="소스 파일\bfs">
+      <UniqueIdentifier>{f433bfd9-b608-48f5-a0bb-14f17a2a8be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\dp">
+      <UniqueIdentifier>{384fc65c-d0db-4bd1-87c9-448d7083729c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\bfs\2636번 치즈">
+      <UniqueIdentifier>{2d7bd947-bba2-4132-a881-3fa7c513de92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\bfs\7576번 토마토">
       <UniqueIdentifier>{38b5c8dc-8fe2-4bb8-8421-460ee0009fb6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="7576_토마토.cpp">
-      <Filter>소스 파일\7576번 토마토</Filter>
+      <Filter>소스 파일\bfs\7576번 토마토</Filter>
+    </ClCompile>
+    <ClCompile Include="2636_치즈.cpp">
+      <Filter>소스 파일\bfs\2636번 치즈</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
