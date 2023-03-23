@@ -21,5 +21,8 @@
     <ClCompile Include="1325_효율적인_해킹.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="13565_침투.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
