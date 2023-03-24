@@ -30,5 +30,8 @@
     <ClCompile Include="18352_특정거리의_노드찾기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1600_말되고픈_원숭이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
