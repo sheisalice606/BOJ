@@ -33,5 +33,8 @@
     <ClCompile Include="1600_말되고픈_원숭이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="17836_공주님을구해.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
