@@ -27,5 +27,8 @@
     <ClCompile Include="9466_텀_프로젝트.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11123_양한마리_양두마리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

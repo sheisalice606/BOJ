@@ -36,5 +36,11 @@
     <ClCompile Include="17836_공주님을구해.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="4179_메모리초과_실패.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4179_불.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
