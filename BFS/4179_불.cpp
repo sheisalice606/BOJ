@@ -1,7 +1,6 @@
 #include<iostream>
 #include<queue>
 using namespace std;
-#define MAX 987654321
 
 int R, C;
 char Map[1001][1001];
@@ -39,7 +38,6 @@ void Input() {
 	for (int i = 1; i <= R; i++) {
 		for (int j = 1; j <= C; j++) {
 			cin >> Map[i][j];
-			Fired[i][j] = MAX;
 
 			if (Map[i][j] == 'F') {
 				// 시작 타임 : 0
@@ -115,12 +113,15 @@ int Bfs() {
 
 			if (nx < 1 || ny < 1 || nx > R || ny > C) continue;				// 범위 초과
 			if (Map[nx][ny] == '#' || Map[nx][ny] == 'F') continue;			// 불 & 벽
-			if (Visit[nx][ny] == 1) continue;								// 방문 노드 & 불에 탄 노드
+
 
 			if (nTime < Fired[nx][ny]) {
+
 				Visit[nx][ny] = 1;
 				Q.push({ nx, ny, nTime });
+			
 			}
+
 		}
 
 	}
